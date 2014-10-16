@@ -1,0 +1,1 @@
+java -Dfile.encoding=utf-8 -cp .;likgene-cm-0.1.jar; com.likegene.cm.Main

@@ -1,0 +1,579 @@
+0    [2014-10-09 19:41:53,375] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_BADLOAN_TABLEIN
+6    [2014-10-09 19:41:53,381] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_BADLOAN_TABLEOUT
+6    [2014-10-09 19:41:53,381] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_CUST_FINGERPRINT
+6    [2014-10-09 19:41:53,381] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_AREA
+7    [2014-10-09 19:41:53,382] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_BASIC
+8    [2014-10-09 19:41:53,383] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_BREED
+9    [2014-10-09 19:41:53,384] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_BUSIOTHER
+9    [2014-10-09 19:41:53,384] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_BUSISTATE
+10   [2014-10-09 19:41:53,385] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_CDTMODEL
+10   [2014-10-09 19:41:53,385] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_CDTMODEL_DETAIL
+11   [2014-10-09 19:41:53,386] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_CDTREPORT
+12   [2014-10-09 19:41:53,387] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_CURRENTASSETS
+14   [2014-10-09 19:41:53,389] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_FINANCIAL
+14   [2014-10-09 19:41:53,389] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_GROW
+15   [2014-10-09 19:41:53,390] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_HOUSEASSETS
+16   [2014-10-09 19:41:53,391] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_INFO
+16   [2014-10-09 19:41:53,391] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_JTSZ
+17   [2014-10-09 19:41:53,392] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_LIABILITY
+20   [2014-10-09 19:41:53,395] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_MEMBER
+21   [2014-10-09 19:41:53,396] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_ORG_AREA
+21   [2014-10-09 19:41:53,396] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_OTHERASSETS
+25   [2014-10-09 19:41:53,400] [main] INFO  com.likegene.cm.b.n  - ----------------------------------------------
+25   [2014-10-09 19:41:53,400] [main] INFO  com.likegene.cm.b.n  - table name - CPS_FAMILY_PJJG - null
+86   [2014-10-09 19:41:53,461] [main] INFO  com.likegene.cm.b.n  - primary key - {PJJG_ID=com.likegene.cm.PFKColumnBean@de0a6cnull}
+140  [2014-10-09 19:41:53,515] [main] INFO  com.likegene.cm.b.n  - Type | Size | Nullable | column name | Remark
+148  [2014-10-09 19:41:53,523] [main] INFO  com.likegene.cm.b.n  - BIGINT | 19 | false | PJJG_ID | null
+149  [2014-10-09 19:41:53,524] [main] INFO  com.likegene.cm.b.n  - INTEGER | 10 | true | FAMILY_ID | null
+153  [2014-10-09 19:41:53,528] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | HYNL | 按户主“20岁以下、20（含）岁—30岁、30岁（含）—50岁、50岁（含）—60岁,60岁以上”5个年龄段分别给予“0、1、2、1、0.5”
+的分值
+166  [2014-10-09 19:41:53,541] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | HYNL_DF | null
+166  [2014-10-09 19:41:53,541] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | WHCD | null
+167  [2014-10-09 19:41:53,542] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | WHCD_DF | null
+167  [2014-10-09 19:41:53,542] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | HYZK | null
+168  [2014-10-09 19:41:53,543] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | HYZK_DF | null
+169  [2014-10-09 19:41:53,544] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | ZFJG | null
+171  [2014-10-09 19:41:53,546] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | ZFJG_DF | null
+171  [2014-10-09 19:41:53,546] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTCYSFJK | null
+172  [2014-10-09 19:41:53,547] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTCYSFJK_DF | null
+173  [2014-10-09 19:41:53,548] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTHMQK | null
+173  [2014-10-09 19:41:53,548] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTHMQK_DF | null
+174  [2014-10-09 19:41:53,549] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | LLHMQK | null
+174  [2014-10-09 19:41:53,549] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | LLHMQK_DF | null
+175  [2014-10-09 19:41:53,550] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTSRFZB | null
+175  [2014-10-09 19:41:53,550] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTSRFZB_DF | null
+176  [2014-10-09 19:41:53,551] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTSRQK | null
+177  [2014-10-09 19:41:53,552] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTSRQK_DF | null
+179  [2014-10-09 19:41:53,554] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTZCQK | null
+179  [2014-10-09 19:41:53,554] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTZCQK_DF | null
+181  [2014-10-09 19:41:53,556] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTJSR | null
+182  [2014-10-09 19:41:53,557] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTJSR_DF | null
+183  [2014-10-09 19:41:53,558] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | CJBXQK | null
+184  [2014-10-09 19:41:53,559] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | CJBXQK_DF | null
+185  [2014-10-09 19:41:53,560] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | CJJNPXQK | null
+186  [2014-10-09 19:41:53,561] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | CJJNPXQK_DF | null
+188  [2014-10-09 19:41:53,563] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | ZYZQK | null
+189  [2014-10-09 19:41:53,564] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | ZYZQK_DF | null
+190  [2014-10-09 19:41:53,565] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | NYYE | null
+190  [2014-10-09 19:41:53,565] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | NYYE_DF | null
+191  [2014-10-09 19:41:53,566] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | SCJYNL | null
+191  [2014-10-09 19:41:53,566] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | SCJYNL_DF | null
+192  [2014-10-09 19:41:53,567] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | SCJYQJ | null
+192  [2014-10-09 19:41:53,567] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | SCJYQJ_DF | null
+193  [2014-10-09 19:41:53,568] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | DKLS | null
+194  [2014-10-09 19:41:53,569] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | DKLS_DF | null
+194  [2014-10-09 19:41:53,569] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | BLXYJL | null
+194  [2014-10-09 19:41:53,569] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | BLXYJL_DF | null
+195  [2014-10-09 19:41:53,570] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | DKZYXS | null
+195  [2014-10-09 19:41:53,570] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | DKZYXS_DF | null
+196  [2014-10-09 19:41:53,571] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | NFAXFX | null
+197  [2014-10-09 19:41:53,572] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | NFAXFX_DF | null
+198  [2014-10-09 19:41:53,573] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | CJZYHZZZQK | null
+198  [2014-10-09 19:41:53,573] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | CJZYHZZZQK_DF | null
+199  [2014-10-09 19:41:53,574] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | CJMJZZQK | null
+199  [2014-10-09 19:41:53,574] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | CJMJZZQK_DF | null
+200  [2014-10-09 19:41:53,575] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | HDBZQK | null
+200  [2014-10-09 19:41:53,575] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | HDBZQK_DF | null
+201  [2014-10-09 19:41:53,576] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | WFZAGLQK | null
+201  [2014-10-09 19:41:53,576] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | WFZAGLQK_DF | null
+202  [2014-10-09 19:41:53,577] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | DDCWHPJ | null
+202  [2014-10-09 19:41:53,577] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | DDCWHPJ_DF | null
+203  [2014-10-09 19:41:53,578] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | DDXYHJ | null
+203  [2014-10-09 19:41:53,578] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | DDXYHJ_DF | null
+205  [2014-10-09 19:41:53,580] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | YWFZXW | null
+206  [2014-10-09 19:41:53,581] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | YWFZXW_DF | null
+206  [2014-10-09 19:41:53,581] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 512 | true | REMARK | null
+207  [2014-10-09 19:41:53,582] [main] INFO  com.likegene.cm.b.n  - INTEGER | 10 | true | CREATE_USER | 创建人
+208  [2014-10-09 19:41:53,583] [main] INFO  com.likegene.cm.b.n  - TIMESTAMP | 26 | true | CREATE_TIME | 创建时间
+209  [2014-10-09 19:41:53,584] [main] INFO  com.likegene.cm.b.n  - INTEGER | 10 | true | UPDATE_USER | 修改人
+209  [2014-10-09 19:41:53,584] [main] INFO  com.likegene.cm.b.n  - TIMESTAMP | 26 | true | UPDATE_TIME | 修改时间
+228  [2014-10-09 19:41:53,603] [main] INFO  com.likegene.cm.b.n  - use primary key - [PJJG_ID]
+228  [2014-10-09 19:41:53,603] [main] INFO  com.likegene.cm.b.n  - -------------------------------------------
+228  [2014-10-09 19:41:53,603] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_SHBZ
+229  [2014-10-09 19:41:53,604] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_TOOLASSETS
+232  [2014-10-09 19:41:53,607] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_USER_AREA
+232  [2014-10-09 19:41:53,607] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_XYJQT
+233  [2014-10-09 19:41:53,608] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_ZCFZ
+234  [2014-10-09 19:41:53,609] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_ZYJYXM
+234  [2014-10-09 19:41:53,609] [main] WARN  com.likegene.cm.b.n  - exclude table HTMLDOCUMENT
+235  [2014-10-09 19:41:53,610] [main] WARN  com.likegene.cm.b.n  - exclude table HTMLHISTORY
+235  [2014-10-09 19:41:53,610] [main] WARN  com.likegene.cm.b.n  - exclude table HTMLSIGNATURE
+236  [2014-10-09 19:41:53,611] [main] WARN  com.likegene.cm.b.n  - exclude table TABLEIN
+237  [2014-10-09 19:41:53,612] [main] WARN  com.likegene.cm.b.n  - exclude table TABLEOUT
+237  [2014-10-09 19:41:53,612] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_ATTACHMENT
+238  [2014-10-09 19:41:53,613] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_DICT_ENTRY
+238  [2014-10-09 19:41:53,613] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_DICT_TYPE
+239  [2014-10-09 19:41:53,614] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_LOGIN_LOG
+239  [2014-10-09 19:41:53,614] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_MENU
+240  [2014-10-09 19:41:53,615] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_OPERATION
+240  [2014-10-09 19:41:53,615] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_ORGANIZATION
+241  [2014-10-09 19:41:53,616] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_PRIMARYKEY
+241  [2014-10-09 19:41:53,616] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_RESOURCE
+242  [2014-10-09 19:41:53,617] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_ROLE
+242  [2014-10-09 19:41:53,617] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_ROLE_RESOURCE
+243  [2014-10-09 19:41:53,618] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_USER
+243  [2014-10-09 19:41:53,618] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_USER_ROLE
+243  [2014-10-09 19:41:53,618] [main] WARN  com.likegene.cm.b.n  - exclude table HMON_ATM_INFO
+244  [2014-10-09 19:41:53,619] [main] WARN  com.likegene.cm.b.n  - exclude table HMON_COLLECTION
+244  [2014-10-09 19:41:53,619] [main] WARN  com.likegene.cm.b.n  - exclude table POLICY
+260  [2014-10-09 19:41:53,635] [main] INFO  com.likegene.cm.b.n  - mapper table of CPS_FAMILY_PJJG
+260  [2014-10-09 19:41:53,635] [main] INFO  com.likegene.cm.b.n  - --------------------------------------------------
+264  [2014-10-09 19:41:53,639] [main] INFO  com.likegene.cm.b.n  - column[PJJG_ID,jdbcType=BIGINT->Long]
+264  [2014-10-09 19:41:53,639] [main] INFO  com.likegene.cm.b.n  - column[FAMILY_ID,jdbcType=INTEGER->Integer]
+264  [2014-10-09 19:41:53,639] [main] INFO  com.likegene.cm.b.n  - column[HYNL,jdbcType=VARCHAR->String]
+265  [2014-10-09 19:41:53,640] [main] INFO  com.likegene.cm.b.n  - column[HYNL_DF,jdbcType=DOUBLE->Double]
+265  [2014-10-09 19:41:53,640] [main] INFO  com.likegene.cm.b.n  - column[WHCD,jdbcType=VARCHAR->String]
+266  [2014-10-09 19:41:53,641] [main] INFO  com.likegene.cm.b.n  - column[WHCD_DF,jdbcType=DOUBLE->Double]
+266  [2014-10-09 19:41:53,641] [main] INFO  com.likegene.cm.b.n  - column[HYZK,jdbcType=VARCHAR->String]
+267  [2014-10-09 19:41:53,642] [main] INFO  com.likegene.cm.b.n  - column[HYZK_DF,jdbcType=DOUBLE->Double]
+267  [2014-10-09 19:41:53,642] [main] INFO  com.likegene.cm.b.n  - column[ZFJG,jdbcType=VARCHAR->String]
+268  [2014-10-09 19:41:53,643] [main] INFO  com.likegene.cm.b.n  - column[ZFJG_DF,jdbcType=DOUBLE->Double]
+268  [2014-10-09 19:41:53,643] [main] INFO  com.likegene.cm.b.n  - column[JTCYSFJK,jdbcType=VARCHAR->String]
+269  [2014-10-09 19:41:53,644] [main] INFO  com.likegene.cm.b.n  - column[JTCYSFJK_DF,jdbcType=DOUBLE->Double]
+269  [2014-10-09 19:41:53,644] [main] INFO  com.likegene.cm.b.n  - column[JTHMQK,jdbcType=VARCHAR->String]
+270  [2014-10-09 19:41:53,645] [main] INFO  com.likegene.cm.b.n  - column[JTHMQK_DF,jdbcType=DOUBLE->Double]
+270  [2014-10-09 19:41:53,645] [main] INFO  com.likegene.cm.b.n  - column[LLHMQK,jdbcType=VARCHAR->String]
+271  [2014-10-09 19:41:53,646] [main] INFO  com.likegene.cm.b.n  - column[LLHMQK_DF,jdbcType=DOUBLE->Double]
+271  [2014-10-09 19:41:53,646] [main] INFO  com.likegene.cm.b.n  - column[JTSRFZB,jdbcType=VARCHAR->String]
+271  [2014-10-09 19:41:53,646] [main] INFO  com.likegene.cm.b.n  - column[JTSRFZB_DF,jdbcType=DOUBLE->Double]
+272  [2014-10-09 19:41:53,647] [main] INFO  com.likegene.cm.b.n  - column[JTSRQK,jdbcType=VARCHAR->String]
+272  [2014-10-09 19:41:53,647] [main] INFO  com.likegene.cm.b.n  - column[JTSRQK_DF,jdbcType=DOUBLE->Double]
+273  [2014-10-09 19:41:53,648] [main] INFO  com.likegene.cm.b.n  - column[JTZCQK,jdbcType=VARCHAR->String]
+274  [2014-10-09 19:41:53,649] [main] INFO  com.likegene.cm.b.n  - column[JTZCQK_DF,jdbcType=DOUBLE->Double]
+274  [2014-10-09 19:41:53,649] [main] INFO  com.likegene.cm.b.n  - column[JTJSR,jdbcType=VARCHAR->String]
+274  [2014-10-09 19:41:53,649] [main] INFO  com.likegene.cm.b.n  - column[JTJSR_DF,jdbcType=DOUBLE->Double]
+275  [2014-10-09 19:41:53,650] [main] INFO  com.likegene.cm.b.n  - column[CJBXQK,jdbcType=VARCHAR->String]
+275  [2014-10-09 19:41:53,650] [main] INFO  com.likegene.cm.b.n  - column[CJBXQK_DF,jdbcType=DOUBLE->Double]
+275  [2014-10-09 19:41:53,650] [main] INFO  com.likegene.cm.b.n  - column[CJJNPXQK,jdbcType=VARCHAR->String]
+275  [2014-10-09 19:41:53,650] [main] INFO  com.likegene.cm.b.n  - column[CJJNPXQK_DF,jdbcType=DOUBLE->Double]
+276  [2014-10-09 19:41:53,651] [main] INFO  com.likegene.cm.b.n  - column[ZYZQK,jdbcType=VARCHAR->String]
+276  [2014-10-09 19:41:53,651] [main] INFO  com.likegene.cm.b.n  - column[ZYZQK_DF,jdbcType=DOUBLE->Double]
+276  [2014-10-09 19:41:53,651] [main] INFO  com.likegene.cm.b.n  - column[NYYE,jdbcType=VARCHAR->String]
+276  [2014-10-09 19:41:53,651] [main] INFO  com.likegene.cm.b.n  - column[NYYE_DF,jdbcType=DOUBLE->Double]
+277  [2014-10-09 19:41:53,652] [main] INFO  com.likegene.cm.b.n  - column[SCJYNL,jdbcType=VARCHAR->String]
+277  [2014-10-09 19:41:53,652] [main] INFO  com.likegene.cm.b.n  - column[SCJYNL_DF,jdbcType=DOUBLE->Double]
+277  [2014-10-09 19:41:53,652] [main] INFO  com.likegene.cm.b.n  - column[SCJYQJ,jdbcType=VARCHAR->String]
+278  [2014-10-09 19:41:53,653] [main] INFO  com.likegene.cm.b.n  - column[SCJYQJ_DF,jdbcType=DOUBLE->Double]
+278  [2014-10-09 19:41:53,653] [main] INFO  com.likegene.cm.b.n  - column[DKLS,jdbcType=VARCHAR->String]
+279  [2014-10-09 19:41:53,654] [main] INFO  com.likegene.cm.b.n  - column[DKLS_DF,jdbcType=DOUBLE->Double]
+279  [2014-10-09 19:41:53,654] [main] INFO  com.likegene.cm.b.n  - column[BLXYJL,jdbcType=VARCHAR->String]
+280  [2014-10-09 19:41:53,655] [main] INFO  com.likegene.cm.b.n  - column[BLXYJL_DF,jdbcType=DOUBLE->Double]
+280  [2014-10-09 19:41:53,655] [main] INFO  com.likegene.cm.b.n  - column[DKZYXS,jdbcType=VARCHAR->String]
+280  [2014-10-09 19:41:53,655] [main] INFO  com.likegene.cm.b.n  - column[DKZYXS_DF,jdbcType=DOUBLE->Double]
+281  [2014-10-09 19:41:53,656] [main] INFO  com.likegene.cm.b.n  - column[NFAXFX,jdbcType=VARCHAR->String]
+281  [2014-10-09 19:41:53,656] [main] INFO  com.likegene.cm.b.n  - column[NFAXFX_DF,jdbcType=DOUBLE->Double]
+281  [2014-10-09 19:41:53,656] [main] INFO  com.likegene.cm.b.n  - column[CJZYHZZZQK,jdbcType=VARCHAR->String]
+282  [2014-10-09 19:41:53,657] [main] INFO  com.likegene.cm.b.n  - column[CJZYHZZZQK_DF,jdbcType=DOUBLE->Double]
+282  [2014-10-09 19:41:53,657] [main] INFO  com.likegene.cm.b.n  - column[CJMJZZQK,jdbcType=VARCHAR->String]
+282  [2014-10-09 19:41:53,657] [main] INFO  com.likegene.cm.b.n  - column[CJMJZZQK_DF,jdbcType=DOUBLE->Double]
+282  [2014-10-09 19:41:53,657] [main] INFO  com.likegene.cm.b.n  - column[HDBZQK,jdbcType=VARCHAR->String]
+282  [2014-10-09 19:41:53,657] [main] INFO  com.likegene.cm.b.n  - column[HDBZQK_DF,jdbcType=DOUBLE->Double]
+283  [2014-10-09 19:41:53,658] [main] INFO  com.likegene.cm.b.n  - column[WFZAGLQK,jdbcType=VARCHAR->String]
+283  [2014-10-09 19:41:53,658] [main] INFO  com.likegene.cm.b.n  - column[WFZAGLQK_DF,jdbcType=DOUBLE->Double]
+283  [2014-10-09 19:41:53,658] [main] INFO  com.likegene.cm.b.n  - column[DDCWHPJ,jdbcType=VARCHAR->String]
+283  [2014-10-09 19:41:53,658] [main] INFO  com.likegene.cm.b.n  - column[DDCWHPJ_DF,jdbcType=DOUBLE->Double]
+283  [2014-10-09 19:41:53,658] [main] INFO  com.likegene.cm.b.n  - column[DDXYHJ,jdbcType=VARCHAR->String]
+283  [2014-10-09 19:41:53,658] [main] INFO  com.likegene.cm.b.n  - column[DDXYHJ_DF,jdbcType=DOUBLE->Double]
+284  [2014-10-09 19:41:53,659] [main] INFO  com.likegene.cm.b.n  - column[YWFZXW,jdbcType=VARCHAR->String]
+284  [2014-10-09 19:41:53,659] [main] INFO  com.likegene.cm.b.n  - column[YWFZXW_DF,jdbcType=DOUBLE->Double]
+285  [2014-10-09 19:41:53,660] [main] INFO  com.likegene.cm.b.n  - column[REMARK,jdbcType=VARCHAR->String]
+285  [2014-10-09 19:41:53,660] [main] INFO  com.likegene.cm.b.n  - column[CREATE_USER,jdbcType=INTEGER->Integer]
+285  [2014-10-09 19:41:53,660] [main] INFO  com.likegene.cm.b.n  - column[CREATE_TIME,jdbcType=TIMESTAMP->java.util.Date]
+285  [2014-10-09 19:41:53,660] [main] INFO  com.likegene.cm.b.n  - column[UPDATE_USER,jdbcType=INTEGER->Integer]
+285  [2014-10-09 19:41:53,660] [main] INFO  com.likegene.cm.b.n  - column[UPDATE_TIME,jdbcType=TIMESTAMP->java.util.Date]
+286  [2014-10-09 19:41:53,661] [main] INFO  com.likegene.cm.b.n  - column[PJJG_ID,jdbcType=BIGINT->Long]
+286  [2014-10-09 19:41:53,661] [main] INFO  com.likegene.cm.b.n  - --------------------------------------------------
+286  [2014-10-09 19:41:53,661] [main] INFO  com.likegene.cm.b.n  - generate java classes for table=CPS_FAMILY_PJJG
+563  [2014-10-09 19:41:53,938] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/java/com/unteck/cps/web/family/model/CpsFamilyPjjg.java success
+576  [2014-10-09 19:41:53,951] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/java/com/unteck/cps/web/family/dao/CpsFamilyPjjgDao.java success
+583  [2014-10-09 19:41:53,958] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/java/com/unteck/cps/web/family/service/CpsFamilyPjjgService.java success
+974  [2014-10-09 19:41:54,349] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/webapp/resources/js/cps-gz/family/CpsFamilyPjjg.js success
+986  [2014-10-09 19:41:54,361] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/resources/custom-sql/family/CpsFamilyPjjg.xml success
+998  [2014-10-09 19:41:54,373] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/java/com/unteck/cps/web/family/controller/CpsFamilyPjjgController.java success
+1003 [2014-10-09 19:41:54,378] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/webapp/WEB-INF/views/cps-gz/family/CpsFamilyPjjg.jsp success
+0    [2014-10-09 19:43:08,626] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_BADLOAN_TABLEIN
+8    [2014-10-09 19:43:08,634] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_BADLOAN_TABLEOUT
+8    [2014-10-09 19:43:08,634] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_CUST_FINGERPRINT
+8    [2014-10-09 19:43:08,634] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_AREA
+9    [2014-10-09 19:43:08,635] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_BASIC
+10   [2014-10-09 19:43:08,636] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_BREED
+11   [2014-10-09 19:43:08,637] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_BUSIOTHER
+12   [2014-10-09 19:43:08,638] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_BUSISTATE
+12   [2014-10-09 19:43:08,638] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_CDTMODEL
+14   [2014-10-09 19:43:08,640] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_CDTMODEL_DETAIL
+14   [2014-10-09 19:43:08,640] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_CDTREPORT
+17   [2014-10-09 19:43:08,643] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_CURRENTASSETS
+20   [2014-10-09 19:43:08,646] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_FINANCIAL
+20   [2014-10-09 19:43:08,646] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_GROW
+21   [2014-10-09 19:43:08,647] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_HOUSEASSETS
+22   [2014-10-09 19:43:08,648] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_INFO
+23   [2014-10-09 19:43:08,649] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_JTSZ
+23   [2014-10-09 19:43:08,649] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_LIABILITY
+24   [2014-10-09 19:43:08,650] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_MEMBER
+25   [2014-10-09 19:43:08,651] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_ORG_AREA
+25   [2014-10-09 19:43:08,651] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_OTHERASSETS
+27   [2014-10-09 19:43:08,653] [main] INFO  com.likegene.cm.b.n  - ----------------------------------------------
+27   [2014-10-09 19:43:08,653] [main] INFO  com.likegene.cm.b.n  - table name - CPS_FAMILY_PJJG - null
+62   [2014-10-09 19:43:08,688] [main] INFO  com.likegene.cm.b.n  - primary key - {PJJG_ID=com.likegene.cm.PFKColumnBean@15c97c99null}
+87   [2014-10-09 19:43:08,713] [main] INFO  com.likegene.cm.b.n  - Type | Size | Nullable | column name | Remark
+89   [2014-10-09 19:43:08,715] [main] INFO  com.likegene.cm.b.n  - BIGINT | 19 | false | PJJG_ID | null
+92   [2014-10-09 19:43:08,718] [main] INFO  com.likegene.cm.b.n  - INTEGER | 10 | true | FAMILY_ID | null
+92   [2014-10-09 19:43:08,718] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | HYNL | 按户主“20岁以下、20（含）岁—30岁、30岁（含）—50岁、50岁（含）—60岁,60岁以上”5个年龄段分别给予“0、1、2、1、0.5”
+的分值
+97   [2014-10-09 19:43:08,723] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | HYNL_DF | null
+99   [2014-10-09 19:43:08,725] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | WHCD | null
+103  [2014-10-09 19:43:08,729] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | WHCD_DF | null
+104  [2014-10-09 19:43:08,730] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | HYZK | null
+106  [2014-10-09 19:43:08,732] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | HYZK_DF | null
+107  [2014-10-09 19:43:08,733] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | ZFJG | null
+108  [2014-10-09 19:43:08,734] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | ZFJG_DF | null
+109  [2014-10-09 19:43:08,735] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTCYSFJK | null
+112  [2014-10-09 19:43:08,738] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTCYSFJK_DF | null
+114  [2014-10-09 19:43:08,740] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTHMQK | null
+115  [2014-10-09 19:43:08,741] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTHMQK_DF | null
+116  [2014-10-09 19:43:08,742] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | LLHMQK | null
+116  [2014-10-09 19:43:08,742] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | LLHMQK_DF | null
+117  [2014-10-09 19:43:08,743] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTSRFZB | null
+119  [2014-10-09 19:43:08,745] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTSRFZB_DF | null
+119  [2014-10-09 19:43:08,745] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTSRQK | null
+120  [2014-10-09 19:43:08,746] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTSRQK_DF | null
+121  [2014-10-09 19:43:08,747] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTZCQK | null
+122  [2014-10-09 19:43:08,748] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTZCQK_DF | null
+123  [2014-10-09 19:43:08,749] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTJSR | null
+124  [2014-10-09 19:43:08,750] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTJSR_DF | null
+124  [2014-10-09 19:43:08,750] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | CJBXQK | null
+126  [2014-10-09 19:43:08,752] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | CJBXQK_DF | null
+126  [2014-10-09 19:43:08,752] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | CJJNPXQK | null
+127  [2014-10-09 19:43:08,753] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | CJJNPXQK_DF | null
+128  [2014-10-09 19:43:08,754] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | ZYZQK | null
+131  [2014-10-09 19:43:08,757] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | ZYZQK_DF | null
+131  [2014-10-09 19:43:08,757] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | NYYE | null
+132  [2014-10-09 19:43:08,758] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | NYYE_DF | null
+133  [2014-10-09 19:43:08,759] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | SCJYNL | null
+133  [2014-10-09 19:43:08,759] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | SCJYNL_DF | null
+134  [2014-10-09 19:43:08,760] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | SCJYQJ | null
+136  [2014-10-09 19:43:08,762] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | SCJYQJ_DF | null
+137  [2014-10-09 19:43:08,763] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | DKLS | null
+138  [2014-10-09 19:43:08,764] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | DKLS_DF | null
+138  [2014-10-09 19:43:08,764] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | BLXYJL | null
+139  [2014-10-09 19:43:08,765] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | BLXYJL_DF | null
+139  [2014-10-09 19:43:08,765] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | DKZYXS | null
+139  [2014-10-09 19:43:08,765] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | DKZYXS_DF | null
+140  [2014-10-09 19:43:08,766] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | NFAXFX | null
+141  [2014-10-09 19:43:08,767] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | NFAXFX_DF | null
+142  [2014-10-09 19:43:08,768] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | CJZYHZZZQK | null
+143  [2014-10-09 19:43:08,769] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | CJZYHZZZQK_DF | null
+144  [2014-10-09 19:43:08,770] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | CJMJZZQK | null
+145  [2014-10-09 19:43:08,771] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | CJMJZZQK_DF | null
+146  [2014-10-09 19:43:08,772] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | HDBZQK | null
+146  [2014-10-09 19:43:08,772] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | HDBZQK_DF | null
+146  [2014-10-09 19:43:08,772] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | WFZAGLQK | null
+147  [2014-10-09 19:43:08,773] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | WFZAGLQK_DF | null
+147  [2014-10-09 19:43:08,773] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | DDCWHPJ | null
+148  [2014-10-09 19:43:08,774] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | DDCWHPJ_DF | null
+148  [2014-10-09 19:43:08,774] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | DDXYHJ | null
+149  [2014-10-09 19:43:08,775] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | DDXYHJ_DF | null
+149  [2014-10-09 19:43:08,775] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | YWFZXW | null
+150  [2014-10-09 19:43:08,776] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | YWFZXW_DF | null
+150  [2014-10-09 19:43:08,776] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 512 | true | REMARK | null
+152  [2014-10-09 19:43:08,778] [main] INFO  com.likegene.cm.b.n  - INTEGER | 10 | true | CREATE_USER | 创建人
+153  [2014-10-09 19:43:08,779] [main] INFO  com.likegene.cm.b.n  - TIMESTAMP | 26 | true | CREATE_TIME | 创建时间
+154  [2014-10-09 19:43:08,780] [main] INFO  com.likegene.cm.b.n  - INTEGER | 10 | true | UPDATE_USER | 修改人
+154  [2014-10-09 19:43:08,780] [main] INFO  com.likegene.cm.b.n  - TIMESTAMP | 26 | true | UPDATE_TIME | 修改时间
+170  [2014-10-09 19:43:08,796] [main] INFO  com.likegene.cm.b.n  - use primary key - [PJJG_ID]
+171  [2014-10-09 19:43:08,797] [main] INFO  com.likegene.cm.b.n  - -------------------------------------------
+171  [2014-10-09 19:43:08,797] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_SHBZ
+172  [2014-10-09 19:43:08,798] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_TOOLASSETS
+172  [2014-10-09 19:43:08,798] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_USER_AREA
+173  [2014-10-09 19:43:08,799] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_XYJQT
+174  [2014-10-09 19:43:08,800] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_ZCFZ
+174  [2014-10-09 19:43:08,800] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_ZYJYXM
+175  [2014-10-09 19:43:08,801] [main] WARN  com.likegene.cm.b.n  - exclude table HTMLDOCUMENT
+176  [2014-10-09 19:43:08,802] [main] WARN  com.likegene.cm.b.n  - exclude table HTMLHISTORY
+176  [2014-10-09 19:43:08,802] [main] WARN  com.likegene.cm.b.n  - exclude table HTMLSIGNATURE
+177  [2014-10-09 19:43:08,803] [main] WARN  com.likegene.cm.b.n  - exclude table TABLEIN
+177  [2014-10-09 19:43:08,803] [main] WARN  com.likegene.cm.b.n  - exclude table TABLEOUT
+178  [2014-10-09 19:43:08,804] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_ATTACHMENT
+179  [2014-10-09 19:43:08,805] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_DICT_ENTRY
+179  [2014-10-09 19:43:08,805] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_DICT_TYPE
+179  [2014-10-09 19:43:08,805] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_LOGIN_LOG
+180  [2014-10-09 19:43:08,806] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_MENU
+180  [2014-10-09 19:43:08,806] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_OPERATION
+181  [2014-10-09 19:43:08,807] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_ORGANIZATION
+181  [2014-10-09 19:43:08,807] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_PRIMARYKEY
+182  [2014-10-09 19:43:08,808] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_RESOURCE
+182  [2014-10-09 19:43:08,808] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_ROLE
+183  [2014-10-09 19:43:08,809] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_ROLE_RESOURCE
+183  [2014-10-09 19:43:08,809] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_USER
+184  [2014-10-09 19:43:08,810] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_USER_ROLE
+185  [2014-10-09 19:43:08,811] [main] WARN  com.likegene.cm.b.n  - exclude table HMON_ATM_INFO
+187  [2014-10-09 19:43:08,813] [main] WARN  com.likegene.cm.b.n  - exclude table HMON_COLLECTION
+189  [2014-10-09 19:43:08,815] [main] WARN  com.likegene.cm.b.n  - exclude table POLICY
+206  [2014-10-09 19:43:08,832] [main] INFO  com.likegene.cm.b.n  - mapper table of CPS_FAMILY_PJJG
+206  [2014-10-09 19:43:08,832] [main] INFO  com.likegene.cm.b.n  - --------------------------------------------------
+210  [2014-10-09 19:43:08,836] [main] INFO  com.likegene.cm.b.n  - column[PJJG_ID,jdbcType=BIGINT->Long]
+210  [2014-10-09 19:43:08,836] [main] INFO  com.likegene.cm.b.n  - column[FAMILY_ID,jdbcType=INTEGER->Integer]
+210  [2014-10-09 19:43:08,836] [main] INFO  com.likegene.cm.b.n  - column[HYNL,jdbcType=VARCHAR->String]
+211  [2014-10-09 19:43:08,837] [main] INFO  com.likegene.cm.b.n  - column[HYNL_DF,jdbcType=DOUBLE->Double]
+211  [2014-10-09 19:43:08,837] [main] INFO  com.likegene.cm.b.n  - column[WHCD,jdbcType=VARCHAR->String]
+212  [2014-10-09 19:43:08,838] [main] INFO  com.likegene.cm.b.n  - column[WHCD_DF,jdbcType=DOUBLE->Double]
+212  [2014-10-09 19:43:08,838] [main] INFO  com.likegene.cm.b.n  - column[HYZK,jdbcType=VARCHAR->String]
+213  [2014-10-09 19:43:08,839] [main] INFO  com.likegene.cm.b.n  - column[HYZK_DF,jdbcType=DOUBLE->Double]
+213  [2014-10-09 19:43:08,839] [main] INFO  com.likegene.cm.b.n  - column[ZFJG,jdbcType=VARCHAR->String]
+214  [2014-10-09 19:43:08,840] [main] INFO  com.likegene.cm.b.n  - column[ZFJG_DF,jdbcType=DOUBLE->Double]
+214  [2014-10-09 19:43:08,840] [main] INFO  com.likegene.cm.b.n  - column[JTCYSFJK,jdbcType=VARCHAR->String]
+215  [2014-10-09 19:43:08,841] [main] INFO  com.likegene.cm.b.n  - column[JTCYSFJK_DF,jdbcType=DOUBLE->Double]
+215  [2014-10-09 19:43:08,841] [main] INFO  com.likegene.cm.b.n  - column[JTHMQK,jdbcType=VARCHAR->String]
+216  [2014-10-09 19:43:08,842] [main] INFO  com.likegene.cm.b.n  - column[JTHMQK_DF,jdbcType=DOUBLE->Double]
+217  [2014-10-09 19:43:08,843] [main] INFO  com.likegene.cm.b.n  - column[LLHMQK,jdbcType=VARCHAR->String]
+219  [2014-10-09 19:43:08,845] [main] INFO  com.likegene.cm.b.n  - column[LLHMQK_DF,jdbcType=DOUBLE->Double]
+220  [2014-10-09 19:43:08,846] [main] INFO  com.likegene.cm.b.n  - column[JTSRFZB,jdbcType=VARCHAR->String]
+220  [2014-10-09 19:43:08,846] [main] INFO  com.likegene.cm.b.n  - column[JTSRFZB_DF,jdbcType=DOUBLE->Double]
+221  [2014-10-09 19:43:08,847] [main] INFO  com.likegene.cm.b.n  - column[JTSRQK,jdbcType=VARCHAR->String]
+222  [2014-10-09 19:43:08,848] [main] INFO  com.likegene.cm.b.n  - column[JTSRQK_DF,jdbcType=DOUBLE->Double]
+222  [2014-10-09 19:43:08,848] [main] INFO  com.likegene.cm.b.n  - column[JTZCQK,jdbcType=VARCHAR->String]
+223  [2014-10-09 19:43:08,849] [main] INFO  com.likegene.cm.b.n  - column[JTZCQK_DF,jdbcType=DOUBLE->Double]
+223  [2014-10-09 19:43:08,849] [main] INFO  com.likegene.cm.b.n  - column[JTJSR,jdbcType=VARCHAR->String]
+224  [2014-10-09 19:43:08,850] [main] INFO  com.likegene.cm.b.n  - column[JTJSR_DF,jdbcType=DOUBLE->Double]
+224  [2014-10-09 19:43:08,850] [main] INFO  com.likegene.cm.b.n  - column[CJBXQK,jdbcType=VARCHAR->String]
+224  [2014-10-09 19:43:08,850] [main] INFO  com.likegene.cm.b.n  - column[CJBXQK_DF,jdbcType=DOUBLE->Double]
+224  [2014-10-09 19:43:08,850] [main] INFO  com.likegene.cm.b.n  - column[CJJNPXQK,jdbcType=VARCHAR->String]
+225  [2014-10-09 19:43:08,851] [main] INFO  com.likegene.cm.b.n  - column[CJJNPXQK_DF,jdbcType=DOUBLE->Double]
+225  [2014-10-09 19:43:08,851] [main] INFO  com.likegene.cm.b.n  - column[ZYZQK,jdbcType=VARCHAR->String]
+225  [2014-10-09 19:43:08,851] [main] INFO  com.likegene.cm.b.n  - column[ZYZQK_DF,jdbcType=DOUBLE->Double]
+225  [2014-10-09 19:43:08,851] [main] INFO  com.likegene.cm.b.n  - column[NYYE,jdbcType=VARCHAR->String]
+225  [2014-10-09 19:43:08,851] [main] INFO  com.likegene.cm.b.n  - column[NYYE_DF,jdbcType=DOUBLE->Double]
+227  [2014-10-09 19:43:08,853] [main] INFO  com.likegene.cm.b.n  - column[SCJYNL,jdbcType=VARCHAR->String]
+228  [2014-10-09 19:43:08,854] [main] INFO  com.likegene.cm.b.n  - column[SCJYNL_DF,jdbcType=DOUBLE->Double]
+228  [2014-10-09 19:43:08,854] [main] INFO  com.likegene.cm.b.n  - column[SCJYQJ,jdbcType=VARCHAR->String]
+228  [2014-10-09 19:43:08,854] [main] INFO  com.likegene.cm.b.n  - column[SCJYQJ_DF,jdbcType=DOUBLE->Double]
+229  [2014-10-09 19:43:08,855] [main] INFO  com.likegene.cm.b.n  - column[DKLS,jdbcType=VARCHAR->String]
+229  [2014-10-09 19:43:08,855] [main] INFO  com.likegene.cm.b.n  - column[DKLS_DF,jdbcType=DOUBLE->Double]
+229  [2014-10-09 19:43:08,855] [main] INFO  com.likegene.cm.b.n  - column[BLXYJL,jdbcType=VARCHAR->String]
+229  [2014-10-09 19:43:08,855] [main] INFO  com.likegene.cm.b.n  - column[BLXYJL_DF,jdbcType=DOUBLE->Double]
+229  [2014-10-09 19:43:08,855] [main] INFO  com.likegene.cm.b.n  - column[DKZYXS,jdbcType=VARCHAR->String]
+229  [2014-10-09 19:43:08,855] [main] INFO  com.likegene.cm.b.n  - column[DKZYXS_DF,jdbcType=DOUBLE->Double]
+229  [2014-10-09 19:43:08,855] [main] INFO  com.likegene.cm.b.n  - column[NFAXFX,jdbcType=VARCHAR->String]
+230  [2014-10-09 19:43:08,856] [main] INFO  com.likegene.cm.b.n  - column[NFAXFX_DF,jdbcType=DOUBLE->Double]
+230  [2014-10-09 19:43:08,856] [main] INFO  com.likegene.cm.b.n  - column[CJZYHZZZQK,jdbcType=VARCHAR->String]
+230  [2014-10-09 19:43:08,856] [main] INFO  com.likegene.cm.b.n  - column[CJZYHZZZQK_DF,jdbcType=DOUBLE->Double]
+230  [2014-10-09 19:43:08,856] [main] INFO  com.likegene.cm.b.n  - column[CJMJZZQK,jdbcType=VARCHAR->String]
+230  [2014-10-09 19:43:08,856] [main] INFO  com.likegene.cm.b.n  - column[CJMJZZQK_DF,jdbcType=DOUBLE->Double]
+230  [2014-10-09 19:43:08,856] [main] INFO  com.likegene.cm.b.n  - column[HDBZQK,jdbcType=VARCHAR->String]
+231  [2014-10-09 19:43:08,857] [main] INFO  com.likegene.cm.b.n  - column[HDBZQK_DF,jdbcType=DOUBLE->Double]
+231  [2014-10-09 19:43:08,857] [main] INFO  com.likegene.cm.b.n  - column[WFZAGLQK,jdbcType=VARCHAR->String]
+231  [2014-10-09 19:43:08,857] [main] INFO  com.likegene.cm.b.n  - column[WFZAGLQK_DF,jdbcType=DOUBLE->Double]
+231  [2014-10-09 19:43:08,857] [main] INFO  com.likegene.cm.b.n  - column[DDCWHPJ,jdbcType=VARCHAR->String]
+231  [2014-10-09 19:43:08,857] [main] INFO  com.likegene.cm.b.n  - column[DDCWHPJ_DF,jdbcType=DOUBLE->Double]
+231  [2014-10-09 19:43:08,857] [main] INFO  com.likegene.cm.b.n  - column[DDXYHJ,jdbcType=VARCHAR->String]
+232  [2014-10-09 19:43:08,858] [main] INFO  com.likegene.cm.b.n  - column[DDXYHJ_DF,jdbcType=DOUBLE->Double]
+232  [2014-10-09 19:43:08,858] [main] INFO  com.likegene.cm.b.n  - column[YWFZXW,jdbcType=VARCHAR->String]
+233  [2014-10-09 19:43:08,859] [main] INFO  com.likegene.cm.b.n  - column[YWFZXW_DF,jdbcType=DOUBLE->Double]
+234  [2014-10-09 19:43:08,860] [main] INFO  com.likegene.cm.b.n  - column[REMARK,jdbcType=VARCHAR->String]
+235  [2014-10-09 19:43:08,861] [main] INFO  com.likegene.cm.b.n  - column[CREATE_USER,jdbcType=INTEGER->Integer]
+235  [2014-10-09 19:43:08,861] [main] INFO  com.likegene.cm.b.n  - column[CREATE_TIME,jdbcType=TIMESTAMP->java.util.Date]
+235  [2014-10-09 19:43:08,861] [main] INFO  com.likegene.cm.b.n  - column[UPDATE_USER,jdbcType=INTEGER->Integer]
+236  [2014-10-09 19:43:08,862] [main] INFO  com.likegene.cm.b.n  - column[UPDATE_TIME,jdbcType=TIMESTAMP->java.util.Date]
+236  [2014-10-09 19:43:08,862] [main] INFO  com.likegene.cm.b.n  - column[PJJG_ID,jdbcType=BIGINT->Long]
+236  [2014-10-09 19:43:08,862] [main] INFO  com.likegene.cm.b.n  - --------------------------------------------------
+237  [2014-10-09 19:43:08,863] [main] INFO  com.likegene.cm.b.n  - generate java classes for table=CPS_FAMILY_PJJG
+475  [2014-10-09 19:43:09,101] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/java/com/unteck/cps/web/family/family/model/CpsFamilyPjjg.java success
+488  [2014-10-09 19:43:09,114] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/java/com/unteck/cps/web/family/family/dao/CpsFamilyPjjgDao.java success
+496  [2014-10-09 19:43:09,122] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/java/com/unteck/cps/web/family/family/service/CpsFamilyPjjgService.java success
+655  [2014-10-09 19:43:09,281] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/webapp/resources/js/cps-gz/family/CpsFamilyPjjg.js success
+664  [2014-10-09 19:43:09,290] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/resources/custom-sql/family/CpsFamilyPjjg.xml success
+677  [2014-10-09 19:43:09,303] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/java/com/unteck/cps/web/family/family/controller/CpsFamilyPjjgController.java success
+682  [2014-10-09 19:43:09,308] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/webapp/WEB-INF/views/cps-gz/family/CpsFamilyPjjg.jsp success
+0    [2014-10-09 19:43:38,733] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_BADLOAN_TABLEIN
+9    [2014-10-09 19:43:38,742] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_BADLOAN_TABLEOUT
+9    [2014-10-09 19:43:38,742] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_CUST_FINGERPRINT
+10   [2014-10-09 19:43:38,743] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_AREA
+10   [2014-10-09 19:43:38,743] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_BASIC
+12   [2014-10-09 19:43:38,745] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_BREED
+13   [2014-10-09 19:43:38,746] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_BUSIOTHER
+14   [2014-10-09 19:43:38,747] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_BUSISTATE
+16   [2014-10-09 19:43:38,749] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_CDTMODEL
+18   [2014-10-09 19:43:38,751] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_CDTMODEL_DETAIL
+20   [2014-10-09 19:43:38,753] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_CDTREPORT
+21   [2014-10-09 19:43:38,754] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_CURRENTASSETS
+22   [2014-10-09 19:43:38,755] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_FINANCIAL
+23   [2014-10-09 19:43:38,756] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_GROW
+25   [2014-10-09 19:43:38,758] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_HOUSEASSETS
+27   [2014-10-09 19:43:38,760] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_INFO
+27   [2014-10-09 19:43:38,760] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_JTSZ
+29   [2014-10-09 19:43:38,762] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_LIABILITY
+30   [2014-10-09 19:43:38,763] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_MEMBER
+31   [2014-10-09 19:43:38,764] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_ORG_AREA
+33   [2014-10-09 19:43:38,766] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_OTHERASSETS
+34   [2014-10-09 19:43:38,767] [main] INFO  com.likegene.cm.b.n  - ----------------------------------------------
+35   [2014-10-09 19:43:38,768] [main] INFO  com.likegene.cm.b.n  - table name - CPS_FAMILY_PJJG - null
+78   [2014-10-09 19:43:38,811] [main] INFO  com.likegene.cm.b.n  - primary key - {PJJG_ID=com.likegene.cm.PFKColumnBean@de0a6cnull}
+105  [2014-10-09 19:43:38,838] [main] INFO  com.likegene.cm.b.n  - Type | Size | Nullable | column name | Remark
+106  [2014-10-09 19:43:38,839] [main] INFO  com.likegene.cm.b.n  - BIGINT | 19 | false | PJJG_ID | null
+106  [2014-10-09 19:43:38,839] [main] INFO  com.likegene.cm.b.n  - INTEGER | 10 | true | FAMILY_ID | null
+107  [2014-10-09 19:43:38,840] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | HYNL | 按户主“20岁以下、20（含）岁—30岁、30岁（含）—50岁、50岁（含）—60岁,60岁以上”5个年龄段分别给予“0、1、2、1、0.5”
+的分值
+109  [2014-10-09 19:43:38,842] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | HYNL_DF | null
+111  [2014-10-09 19:43:38,844] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | WHCD | null
+112  [2014-10-09 19:43:38,845] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | WHCD_DF | null
+112  [2014-10-09 19:43:38,845] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | HYZK | null
+113  [2014-10-09 19:43:38,846] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | HYZK_DF | null
+113  [2014-10-09 19:43:38,846] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | ZFJG | null
+114  [2014-10-09 19:43:38,847] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | ZFJG_DF | null
+114  [2014-10-09 19:43:38,847] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTCYSFJK | null
+116  [2014-10-09 19:43:38,849] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTCYSFJK_DF | null
+118  [2014-10-09 19:43:38,851] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTHMQK | null
+119  [2014-10-09 19:43:38,852] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTHMQK_DF | null
+120  [2014-10-09 19:43:38,853] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | LLHMQK | null
+121  [2014-10-09 19:43:38,854] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | LLHMQK_DF | null
+121  [2014-10-09 19:43:38,854] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTSRFZB | null
+122  [2014-10-09 19:43:38,855] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTSRFZB_DF | null
+123  [2014-10-09 19:43:38,856] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTSRQK | null
+123  [2014-10-09 19:43:38,856] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTSRQK_DF | null
+124  [2014-10-09 19:43:38,857] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTZCQK | null
+131  [2014-10-09 19:43:38,864] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTZCQK_DF | null
+131  [2014-10-09 19:43:38,864] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | JTJSR | null
+132  [2014-10-09 19:43:38,865] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | JTJSR_DF | null
+133  [2014-10-09 19:43:38,866] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | CJBXQK | null
+135  [2014-10-09 19:43:38,868] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | CJBXQK_DF | null
+135  [2014-10-09 19:43:38,868] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | CJJNPXQK | null
+135  [2014-10-09 19:43:38,868] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | CJJNPXQK_DF | null
+136  [2014-10-09 19:43:38,869] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | ZYZQK | null
+136  [2014-10-09 19:43:38,869] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | ZYZQK_DF | null
+137  [2014-10-09 19:43:38,870] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | NYYE | null
+137  [2014-10-09 19:43:38,870] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | NYYE_DF | null
+138  [2014-10-09 19:43:38,871] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | SCJYNL | null
+139  [2014-10-09 19:43:38,872] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | SCJYNL_DF | null
+139  [2014-10-09 19:43:38,872] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | SCJYQJ | null
+140  [2014-10-09 19:43:38,873] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | SCJYQJ_DF | null
+142  [2014-10-09 19:43:38,875] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | DKLS | null
+143  [2014-10-09 19:43:38,876] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | DKLS_DF | null
+146  [2014-10-09 19:43:38,879] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | BLXYJL | null
+147  [2014-10-09 19:43:38,880] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | BLXYJL_DF | null
+147  [2014-10-09 19:43:38,880] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | DKZYXS | null
+148  [2014-10-09 19:43:38,881] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | DKZYXS_DF | null
+148  [2014-10-09 19:43:38,881] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | NFAXFX | null
+149  [2014-10-09 19:43:38,882] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | NFAXFX_DF | null
+150  [2014-10-09 19:43:38,883] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | CJZYHZZZQK | null
+151  [2014-10-09 19:43:38,884] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | CJZYHZZZQK_DF | null
+151  [2014-10-09 19:43:38,884] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | CJMJZZQK | null
+152  [2014-10-09 19:43:38,885] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | CJMJZZQK_DF | null
+152  [2014-10-09 19:43:38,885] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | HDBZQK | null
+153  [2014-10-09 19:43:38,886] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | HDBZQK_DF | null
+153  [2014-10-09 19:43:38,886] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | WFZAGLQK | null
+154  [2014-10-09 19:43:38,887] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | WFZAGLQK_DF | null
+154  [2014-10-09 19:43:38,887] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | DDCWHPJ | null
+155  [2014-10-09 19:43:38,888] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | DDCWHPJ_DF | null
+155  [2014-10-09 19:43:38,888] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | DDXYHJ | null
+156  [2014-10-09 19:43:38,889] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | DDXYHJ_DF | null
+156  [2014-10-09 19:43:38,889] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 100 | true | YWFZXW | null
+157  [2014-10-09 19:43:38,890] [main] INFO  com.likegene.cm.b.n  - DOUBLE | 53 | true | YWFZXW_DF | null
+157  [2014-10-09 19:43:38,890] [main] INFO  com.likegene.cm.b.n  - VARCHAR | 512 | true | REMARK | null
+158  [2014-10-09 19:43:38,891] [main] INFO  com.likegene.cm.b.n  - INTEGER | 10 | true | CREATE_USER | 创建人
+159  [2014-10-09 19:43:38,892] [main] INFO  com.likegene.cm.b.n  - TIMESTAMP | 26 | true | CREATE_TIME | 创建时间
+159  [2014-10-09 19:43:38,892] [main] INFO  com.likegene.cm.b.n  - INTEGER | 10 | true | UPDATE_USER | 修改人
+163  [2014-10-09 19:43:38,896] [main] INFO  com.likegene.cm.b.n  - TIMESTAMP | 26 | true | UPDATE_TIME | 修改时间
+182  [2014-10-09 19:43:38,915] [main] INFO  com.likegene.cm.b.n  - use primary key - [PJJG_ID]
+182  [2014-10-09 19:43:38,915] [main] INFO  com.likegene.cm.b.n  - -------------------------------------------
+182  [2014-10-09 19:43:38,915] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_SHBZ
+183  [2014-10-09 19:43:38,916] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_TOOLASSETS
+183  [2014-10-09 19:43:38,916] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_USER_AREA
+184  [2014-10-09 19:43:38,917] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_XYJQT
+184  [2014-10-09 19:43:38,917] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_ZCFZ
+185  [2014-10-09 19:43:38,918] [main] WARN  com.likegene.cm.b.n  - exclude table CPS_FAMILY_ZYJYXM
+185  [2014-10-09 19:43:38,918] [main] WARN  com.likegene.cm.b.n  - exclude table HTMLDOCUMENT
+186  [2014-10-09 19:43:38,919] [main] WARN  com.likegene.cm.b.n  - exclude table HTMLHISTORY
+186  [2014-10-09 19:43:38,919] [main] WARN  com.likegene.cm.b.n  - exclude table HTMLSIGNATURE
+187  [2014-10-09 19:43:38,920] [main] WARN  com.likegene.cm.b.n  - exclude table TABLEIN
+189  [2014-10-09 19:43:38,922] [main] WARN  com.likegene.cm.b.n  - exclude table TABLEOUT
+189  [2014-10-09 19:43:38,922] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_ATTACHMENT
+189  [2014-10-09 19:43:38,922] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_DICT_ENTRY
+190  [2014-10-09 19:43:38,923] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_DICT_TYPE
+191  [2014-10-09 19:43:38,924] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_LOGIN_LOG
+191  [2014-10-09 19:43:38,924] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_MENU
+192  [2014-10-09 19:43:38,925] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_OPERATION
+193  [2014-10-09 19:43:38,926] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_ORGANIZATION
+194  [2014-10-09 19:43:38,927] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_PRIMARYKEY
+195  [2014-10-09 19:43:38,928] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_RESOURCE
+196  [2014-10-09 19:43:38,929] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_ROLE
+196  [2014-10-09 19:43:38,929] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_ROLE_RESOURCE
+196  [2014-10-09 19:43:38,929] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_USER
+197  [2014-10-09 19:43:38,930] [main] WARN  com.likegene.cm.b.n  - exclude table UNTECK_USER_ROLE
+197  [2014-10-09 19:43:38,930] [main] WARN  com.likegene.cm.b.n  - exclude table HMON_ATM_INFO
+198  [2014-10-09 19:43:38,931] [main] WARN  com.likegene.cm.b.n  - exclude table HMON_COLLECTION
+199  [2014-10-09 19:43:38,932] [main] WARN  com.likegene.cm.b.n  - exclude table POLICY
+217  [2014-10-09 19:43:38,950] [main] INFO  com.likegene.cm.b.n  - mapper table of CPS_FAMILY_PJJG
+218  [2014-10-09 19:43:38,951] [main] INFO  com.likegene.cm.b.n  - --------------------------------------------------
+220  [2014-10-09 19:43:38,953] [main] INFO  com.likegene.cm.b.n  - column[PJJG_ID,jdbcType=BIGINT->Long]
+221  [2014-10-09 19:43:38,954] [main] INFO  com.likegene.cm.b.n  - column[FAMILY_ID,jdbcType=INTEGER->Integer]
+222  [2014-10-09 19:43:38,955] [main] INFO  com.likegene.cm.b.n  - column[HYNL,jdbcType=VARCHAR->String]
+222  [2014-10-09 19:43:38,955] [main] INFO  com.likegene.cm.b.n  - column[HYNL_DF,jdbcType=DOUBLE->Double]
+223  [2014-10-09 19:43:38,956] [main] INFO  com.likegene.cm.b.n  - column[WHCD,jdbcType=VARCHAR->String]
+223  [2014-10-09 19:43:38,956] [main] INFO  com.likegene.cm.b.n  - column[WHCD_DF,jdbcType=DOUBLE->Double]
+223  [2014-10-09 19:43:38,956] [main] INFO  com.likegene.cm.b.n  - column[HYZK,jdbcType=VARCHAR->String]
+224  [2014-10-09 19:43:38,957] [main] INFO  com.likegene.cm.b.n  - column[HYZK_DF,jdbcType=DOUBLE->Double]
+224  [2014-10-09 19:43:38,957] [main] INFO  com.likegene.cm.b.n  - column[ZFJG,jdbcType=VARCHAR->String]
+225  [2014-10-09 19:43:38,958] [main] INFO  com.likegene.cm.b.n  - column[ZFJG_DF,jdbcType=DOUBLE->Double]
+225  [2014-10-09 19:43:38,958] [main] INFO  com.likegene.cm.b.n  - column[JTCYSFJK,jdbcType=VARCHAR->String]
+226  [2014-10-09 19:43:38,959] [main] INFO  com.likegene.cm.b.n  - column[JTCYSFJK_DF,jdbcType=DOUBLE->Double]
+227  [2014-10-09 19:43:38,960] [main] INFO  com.likegene.cm.b.n  - column[JTHMQK,jdbcType=VARCHAR->String]
+228  [2014-10-09 19:43:38,961] [main] INFO  com.likegene.cm.b.n  - column[JTHMQK_DF,jdbcType=DOUBLE->Double]
+229  [2014-10-09 19:43:38,962] [main] INFO  com.likegene.cm.b.n  - column[LLHMQK,jdbcType=VARCHAR->String]
+229  [2014-10-09 19:43:38,962] [main] INFO  com.likegene.cm.b.n  - column[LLHMQK_DF,jdbcType=DOUBLE->Double]
+230  [2014-10-09 19:43:38,963] [main] INFO  com.likegene.cm.b.n  - column[JTSRFZB,jdbcType=VARCHAR->String]
+231  [2014-10-09 19:43:38,964] [main] INFO  com.likegene.cm.b.n  - column[JTSRFZB_DF,jdbcType=DOUBLE->Double]
+232  [2014-10-09 19:43:38,965] [main] INFO  com.likegene.cm.b.n  - column[JTSRQK,jdbcType=VARCHAR->String]
+232  [2014-10-09 19:43:38,965] [main] INFO  com.likegene.cm.b.n  - column[JTSRQK_DF,jdbcType=DOUBLE->Double]
+234  [2014-10-09 19:43:38,967] [main] INFO  com.likegene.cm.b.n  - column[JTZCQK,jdbcType=VARCHAR->String]
+234  [2014-10-09 19:43:38,967] [main] INFO  com.likegene.cm.b.n  - column[JTZCQK_DF,jdbcType=DOUBLE->Double]
+234  [2014-10-09 19:43:38,967] [main] INFO  com.likegene.cm.b.n  - column[JTJSR,jdbcType=VARCHAR->String]
+238  [2014-10-09 19:43:38,971] [main] INFO  com.likegene.cm.b.n  - column[JTJSR_DF,jdbcType=DOUBLE->Double]
+238  [2014-10-09 19:43:38,971] [main] INFO  com.likegene.cm.b.n  - column[CJBXQK,jdbcType=VARCHAR->String]
+239  [2014-10-09 19:43:38,972] [main] INFO  com.likegene.cm.b.n  - column[CJBXQK_DF,jdbcType=DOUBLE->Double]
+239  [2014-10-09 19:43:38,972] [main] INFO  com.likegene.cm.b.n  - column[CJJNPXQK,jdbcType=VARCHAR->String]
+239  [2014-10-09 19:43:38,972] [main] INFO  com.likegene.cm.b.n  - column[CJJNPXQK_DF,jdbcType=DOUBLE->Double]
+239  [2014-10-09 19:43:38,972] [main] INFO  com.likegene.cm.b.n  - column[ZYZQK,jdbcType=VARCHAR->String]
+239  [2014-10-09 19:43:38,972] [main] INFO  com.likegene.cm.b.n  - column[ZYZQK_DF,jdbcType=DOUBLE->Double]
+239  [2014-10-09 19:43:38,972] [main] INFO  com.likegene.cm.b.n  - column[NYYE,jdbcType=VARCHAR->String]
+239  [2014-10-09 19:43:38,972] [main] INFO  com.likegene.cm.b.n  - column[NYYE_DF,jdbcType=DOUBLE->Double]
+240  [2014-10-09 19:43:38,973] [main] INFO  com.likegene.cm.b.n  - column[SCJYNL,jdbcType=VARCHAR->String]
+240  [2014-10-09 19:43:38,973] [main] INFO  com.likegene.cm.b.n  - column[SCJYNL_DF,jdbcType=DOUBLE->Double]
+240  [2014-10-09 19:43:38,973] [main] INFO  com.likegene.cm.b.n  - column[SCJYQJ,jdbcType=VARCHAR->String]
+240  [2014-10-09 19:43:38,973] [main] INFO  com.likegene.cm.b.n  - column[SCJYQJ_DF,jdbcType=DOUBLE->Double]
+240  [2014-10-09 19:43:38,973] [main] INFO  com.likegene.cm.b.n  - column[DKLS,jdbcType=VARCHAR->String]
+240  [2014-10-09 19:43:38,973] [main] INFO  com.likegene.cm.b.n  - column[DKLS_DF,jdbcType=DOUBLE->Double]
+240  [2014-10-09 19:43:38,973] [main] INFO  com.likegene.cm.b.n  - column[BLXYJL,jdbcType=VARCHAR->String]
+241  [2014-10-09 19:43:38,974] [main] INFO  com.likegene.cm.b.n  - column[BLXYJL_DF,jdbcType=DOUBLE->Double]
+241  [2014-10-09 19:43:38,974] [main] INFO  com.likegene.cm.b.n  - column[DKZYXS,jdbcType=VARCHAR->String]
+241  [2014-10-09 19:43:38,974] [main] INFO  com.likegene.cm.b.n  - column[DKZYXS_DF,jdbcType=DOUBLE->Double]
+241  [2014-10-09 19:43:38,974] [main] INFO  com.likegene.cm.b.n  - column[NFAXFX,jdbcType=VARCHAR->String]
+241  [2014-10-09 19:43:38,974] [main] INFO  com.likegene.cm.b.n  - column[NFAXFX_DF,jdbcType=DOUBLE->Double]
+241  [2014-10-09 19:43:38,974] [main] INFO  com.likegene.cm.b.n  - column[CJZYHZZZQK,jdbcType=VARCHAR->String]
+242  [2014-10-09 19:43:38,975] [main] INFO  com.likegene.cm.b.n  - column[CJZYHZZZQK_DF,jdbcType=DOUBLE->Double]
+242  [2014-10-09 19:43:38,975] [main] INFO  com.likegene.cm.b.n  - column[CJMJZZQK,jdbcType=VARCHAR->String]
+242  [2014-10-09 19:43:38,975] [main] INFO  com.likegene.cm.b.n  - column[CJMJZZQK_DF,jdbcType=DOUBLE->Double]
+242  [2014-10-09 19:43:38,975] [main] INFO  com.likegene.cm.b.n  - column[HDBZQK,jdbcType=VARCHAR->String]
+242  [2014-10-09 19:43:38,975] [main] INFO  com.likegene.cm.b.n  - column[HDBZQK_DF,jdbcType=DOUBLE->Double]
+243  [2014-10-09 19:43:38,976] [main] INFO  com.likegene.cm.b.n  - column[WFZAGLQK,jdbcType=VARCHAR->String]
+243  [2014-10-09 19:43:38,976] [main] INFO  com.likegene.cm.b.n  - column[WFZAGLQK_DF,jdbcType=DOUBLE->Double]
+244  [2014-10-09 19:43:38,977] [main] INFO  com.likegene.cm.b.n  - column[DDCWHPJ,jdbcType=VARCHAR->String]
+244  [2014-10-09 19:43:38,977] [main] INFO  com.likegene.cm.b.n  - column[DDCWHPJ_DF,jdbcType=DOUBLE->Double]
+244  [2014-10-09 19:43:38,977] [main] INFO  com.likegene.cm.b.n  - column[DDXYHJ,jdbcType=VARCHAR->String]
+244  [2014-10-09 19:43:38,977] [main] INFO  com.likegene.cm.b.n  - column[DDXYHJ_DF,jdbcType=DOUBLE->Double]
+245  [2014-10-09 19:43:38,978] [main] INFO  com.likegene.cm.b.n  - column[YWFZXW,jdbcType=VARCHAR->String]
+245  [2014-10-09 19:43:38,978] [main] INFO  com.likegene.cm.b.n  - column[YWFZXW_DF,jdbcType=DOUBLE->Double]
+245  [2014-10-09 19:43:38,978] [main] INFO  com.likegene.cm.b.n  - column[REMARK,jdbcType=VARCHAR->String]
+245  [2014-10-09 19:43:38,978] [main] INFO  com.likegene.cm.b.n  - column[CREATE_USER,jdbcType=INTEGER->Integer]
+246  [2014-10-09 19:43:38,979] [main] INFO  com.likegene.cm.b.n  - column[CREATE_TIME,jdbcType=TIMESTAMP->java.util.Date]
+246  [2014-10-09 19:43:38,979] [main] INFO  com.likegene.cm.b.n  - column[UPDATE_USER,jdbcType=INTEGER->Integer]
+246  [2014-10-09 19:43:38,979] [main] INFO  com.likegene.cm.b.n  - column[UPDATE_TIME,jdbcType=TIMESTAMP->java.util.Date]
+246  [2014-10-09 19:43:38,979] [main] INFO  com.likegene.cm.b.n  - column[PJJG_ID,jdbcType=BIGINT->Long]
+247  [2014-10-09 19:43:38,980] [main] INFO  com.likegene.cm.b.n  - --------------------------------------------------
+247  [2014-10-09 19:43:38,980] [main] INFO  com.likegene.cm.b.n  - generate java classes for table=CPS_FAMILY_PJJG
+492  [2014-10-09 19:43:39,225] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/java/com/unteck/cps/web/family/model/CpsFamilyPjjg.java success
+503  [2014-10-09 19:43:39,236] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/java/com/unteck/cps/web/family/dao/CpsFamilyPjjgDao.java success
+510  [2014-10-09 19:43:39,243] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/java/com/unteck/cps/web/family/service/CpsFamilyPjjgService.java success
+678  [2014-10-09 19:43:39,411] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/webapp/resources/js/cps-gz/family/CpsFamilyPjjg.js success
+688  [2014-10-09 19:43:39,421] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/resources/custom-sql/family/CpsFamilyPjjg.xml success
+700  [2014-10-09 19:43:39,433] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/java/com/unteck/cps/web/family/controller/CpsFamilyPjjgController.java success
+706  [2014-10-09 19:43:39,439] [main] INFO  com.likegene.cm.u  - copy file -> ./cps-gz/src/main/webapp/WEB-INF/views/cps-gz/family/CpsFamilyPjjg.jsp success
